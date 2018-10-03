@@ -49,3 +49,16 @@
     margin-bottom: 1.8rem;
     line-height: 1.5;
 }
+
+#blog-section .blog-container .details .more .button {
+    font-size: 1.3rem;
+    color: #13171a;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 1.8rem;
+    line-height: 1.5;
+    display: inline-block;
+    border-bottom: 2px solid #13171a;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
