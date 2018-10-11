@@ -72,7 +72,12 @@
 
 /* tablets */
 @media only screen and (max-width: 960px) {
-
+    #top .container {
+        padding: 0 0 80px;
+    }
+    #top .img .background-img {
+        height: 100vh;
+    }
 }
 
 /* phones */
