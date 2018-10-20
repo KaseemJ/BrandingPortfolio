@@ -1,7 +1,3 @@
-#top {
-    
-}
-
 #top .container{
     display: grid;
     grid-template-columns: 1fr 1fr;  
@@ -60,7 +56,7 @@
 }
 
 #top .img .background-img { 
-    background: url("../img/New Profile Pic.jpg");
+    background: url("../../img/New Profile Pic.jpg");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;

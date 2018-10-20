@@ -91,7 +91,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image1 .image {
-    background: url(../img/bandsinthecity.png);
+    background: url(../../img/bandsinthecity.png);
     /* width: 600px; */
     height: 100%;
     background-size: cover;
@@ -105,7 +105,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image2 .image {
-    background: url(../img/journeyon.png);
+    background: url(../../img/journeyon.png);
     width: 575px;
     height: 100%;
     background-size: cover;
@@ -119,7 +119,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image3 .image {
-    background: url(../img/kemslist.png); 
+    background: url(../../img/kemslist.png); 
     width: 400px;
     height: 310px;
     background-size: cover;
@@ -133,7 +133,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image4 .image {
-    background: url(../img/friendfinder.png); 
+    background: url(../../img/friendfinder.png); 
     width: 500px;
     height: 200px;
     background-size: cover;
@@ -175,7 +175,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image7 .image {
-    background: url(../img/email\ marketing.png); 
+    background: url(../../img/email\ marketing.png); 
     width: 100%;
     height: 410px;
     background-size: cover;
