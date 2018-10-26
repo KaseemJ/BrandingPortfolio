@@ -22,3 +22,34 @@
     text-decoration: none;
     text-transform: capitalize;
 }
+
+#portfolio-projects p {
+    display: inline-block;
+    border-radius: 3px;
+    color: #929294;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    text-decoration: none;
+    margin-bottom: 1.8rem;
+    text-transform: capitalize;
+}
+
+#portfolio-projects .technologies {
+    
+}
+
+#portfolio-projects .technologies h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+#portfolio-projects .technologies .icons  {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#portfolio-projects .technologies .icons .icon {
+    
+}
