@@ -11,9 +11,9 @@
     width: 120%;
     height: 450px;
     background-size: cover !important;
-    background-position: center center !important;
+    background-position: top center !important;
     background-repeat: no-repeat !important;
-    background-attachment: fixed !important; 
+    /* background-attachment: fixed !important;  */
 }
 
 #portfolio-projects h1 {
@@ -73,12 +73,22 @@
     text-transform: uppercase;
 }
 /* fix the grid system on these icons */
-#portfolio-projects .technologies .icons .icon {
+#portfolio-projects .technologies .icons {
     display: grid !important;
     grid-template-columns: repeat(4,1fr) !important;
     grid-gap: 20px !important;
     align-items: center !important;
     justify-items: center !important;
+}
+
+#portfolio-projects .technologies .icons img {
+    filter: grayscale(100%);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+#portfolio-projects .technologies .icons img:hover {
+    filter: grayscale(0);
 }
 
 #portfolio-projects .technologies .icons .icon img{
@@ -88,4 +98,16 @@
 
 #portfolio-projects .video {
     text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+    #portfolio-projects .video iframe {
+        width: 100% !important;
+    }
+}
+
+/* phones */
+@media only screen and (max-width: 767px) {
+    
+    
 }
