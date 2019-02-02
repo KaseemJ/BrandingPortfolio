@@ -9,6 +9,9 @@
 @import"portfolio/portfolio-projects.css";
 @import"footer-section.css";
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 .container {
