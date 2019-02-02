@@ -9,6 +9,8 @@ menuBtn[0].addEventListener('click', clickedBtn);
 console.log(menuBtn[0]);
 
 
+// Js to click menu items and scroll page //
+
 $('a[href*=#]').on('click', function (e) {
     var targetSec = $(this).text();
     $('html, body').animate({
